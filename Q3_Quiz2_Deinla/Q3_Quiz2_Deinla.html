@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<title>Laufey: A Profile</title>
+	<style type="text/css">
+		body {
+			text-align: center;
+			background: darkblue;
+			color: white;
+		}
+		h1 {
+			font-family: futura;
+			font-size: 40px;
+			color: white;
+		}
+		p{
+			font-family: futura;
+		}
+		i{
+			color: lightcyan;
+		}
+		.container {
+			display: inline-flex;
+		}
+		.container .item {
+		background-color: red;
+		background-color: green;
+		width: 1800px;
+		height: 1500px;
+		margin: 1px;
+		padding: 1px;
+		justify-content: center;
+
+		}
+		#box1 {
+			background-color: darkslateblue;
+			border-radius: 20px;
+			justify-content: space-evenly;
+		}
+		h3{
+			color: darkblue;
+		}
+		table{
+			border-radius: 10px;
+			border-color: darkblue;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#alltime">Laufey: A Profile</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#alltime">Home</a></li>
+      <li><a href="#box1">Overview</a></li>
+      <li><a href="#rottentomatoes">Album</a></li>
+      <li><a href="#rottentomatoes">Tour Dates</a></li>
+    </ul>
+    <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+        <div class="checkbox">
+    <label><input type="checkbox"> Include sale markers</label>
+  		</div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+</nav>
+
+	<td><center><img src="Laufey.jpg" class="rounded" height="200" width="200" id="alltime"></center></td>
+	<h1>Laufey: A Profile</h1>
+	<hr>
+	<center><div class="container">
+		<div class="item" id="box1">
+			<h2>Interstellar (2014)</h2>
+			<td><center><img src="Interstellar.jpg" class="img-thumbnail" height="200" width="300"></center></td>
+			<hr> <p>In a future earth facing blight and famine, a group of astronauts travel through a wormhole near Saturn to search for a new home for humankind. <hr> <strong>Cast:</strong> <i>Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine <hr> <strong>Reviews:</strong> Paramount to an act of God. Delivers a powerful message with great scientific accuracy. Hans Zimmer's music is phenomenal beyond comprehension. (Personal) <hr> This is not only a tremendously exciting space adventure... It's also a rich and thoughtful meditation on time and space and gravity. (David Stratton, At The Movies Australia)</i> <hr> <strong>FINAL SCORE</strong> <hr><strong><h1>5.0</h1></strong></p>
+			<td><center><img src="fivestarsclear.png" class="img-thumbnail" height="50" width="150"></center></td>
+		</div>
+	</center>
+
+<hr>
+
+<center><table id="rottentomatoes" class="table-borderless" style="font-family:Corbel Light" border="1" cellpadding="1" cellspacing="1" bgcolor="lightcyan"><tr><td><a href="https://www.rottentomatoes.com/">Rotten Tomatoes Official Website</a></td></tr></table><br></center>
+
+
+</body>
+</html>
